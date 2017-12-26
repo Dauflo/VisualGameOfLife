@@ -68,8 +68,7 @@ public class Visual extends javax.swing.JFrame {
     private void evolution() {
         javax.swing.JOptionPane.showMessageDialog(null, "Ready ?");
         for (int i = 0; i < nbGeneration; i++) {
-            //gameOfLife.afficherGrille();
-            gameOfLife.newGeneration(nbGeneration);
+            gameOfLife.nextGeneration(nbGeneration);
             getColor();
             
         }
