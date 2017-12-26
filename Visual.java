@@ -51,7 +51,7 @@ public class Visual extends javax.swing.JFrame {
             }
             
         };
-        time.scheduleAtFixedRate(task, 0, 100);
+        time.scheduleAtFixedRate(task, 0, 1);
         
     }
     
