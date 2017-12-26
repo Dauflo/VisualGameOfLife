@@ -20,11 +20,18 @@ public class Hub extends javax.swing.JFrame {
     private void launch() {
         try {
             nbLignes = Integer.parseInt(jTextField1.getText());
-            nbColones = Integer.parseInt(jTextField2.getText());
-            nbGeneration = Integer.parseInt(jTextField3.getText());
         } catch (Exception e) {
             nbLignes = 10;
+        }
+        
+        try {
+            nbColones = Integer.parseInt(jTextField2.getText());
+        } catch (Exception e) {
             nbColones = 10;
+        }
+        try {
+            nbGeneration = Integer.parseInt(jTextField3.getText());
+        } catch (Exception e) {
             nbGeneration = 10;
         }
 
