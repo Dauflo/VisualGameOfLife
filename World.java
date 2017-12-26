@@ -20,7 +20,7 @@ public class World {
     /*public World(Cell[][] world) {
     }*/
 
-    public void newGeneration(int nbGeneration) {
+    public void nextGeneration(int nbGeneration) {
         //for (int l = 0; l < nbGeneration; l++) {
             Cell[][] mapTemp = new Cell[map.length][map[0].length];
             for (int i = 0; i < map.length; i++) {
